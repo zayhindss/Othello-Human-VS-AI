@@ -1,12 +1,3 @@
-#CSC 4753 // FALL 2025 // ASSIGNMENT 3 // AN INTELLIGENT OTHELLO PLAYER
-#NAME : ISAIAH HINDS
-#DATE : 11/10/25
-#CWID : 10391359
-#DESCRIPTION : Python implementation of base game Othello, with 
-# human vs human, and human vs ai. Uses a 1D list using outer "sentinel" squares to make move checking simple
-#AI uses minimax to look ahead a few moves and pick best path based on a heuristic that
-#values corner control, mobility, disc difference, and avoids spots near the corner.
-
 #==============BOARD SETUP====================
 EMPTY, BLACK, WHITE, OUTER = '.', '@', 'o', '?'
 PLAYERS = {BLACK: 'Black', WHITE: 'White'}
@@ -364,4 +355,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
